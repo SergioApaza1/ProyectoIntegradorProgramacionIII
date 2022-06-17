@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         };
 
         Timer tiempo = new Timer();
-        tiempo.schedule(tarea,2500);
+        tiempo.schedule(tarea,2000);
     }
 }

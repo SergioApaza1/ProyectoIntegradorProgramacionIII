@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vixtech">
+    package="com.example.vixtech" >
 
     <application
         android:allowBackup="true"
@@ -8,19 +8,329 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VixTech">
+        android:theme="@style/Theme.VixTech" >
+        <activity
+            android:name=".viper"
+            android:exported="false" />
+        <activity
+            android:name=".g502"
+            android:exported="false" />
+        <activity
+            android:name=".iron"
+            android:exported="false" />
+        <activity
+            android:name=".harpoon"
+            android:exported="false" />
+        <activity
+            android:name=".viperm"
+            android:exported="false" />
+        <activity
+            android:name=".g203"
+            android:exported="false" />
+        <activity
+            android:name=".r24"
+            android:exported="false" />
+        <activity
+            android:name=".m27"
+            android:exported="false" />
+        <activity
+            android:name=".a27"
+            android:exported="false" />
+        <activity
+            android:name=".a24"
+            android:exported="false" />
+        <activity
+            android:name=".s27"
+            android:exported="false" />
+        <activity
+            android:name=".s24"
+            android:exported="false" />
+        <activity
+            android:name=".r850"
+            android:exported="false" />
+        <activity
+            android:name=".hx750"
+            android:exported="false" />
+        <activity
+            android:name=".rm650"
+            android:exported="false" />
+        <activity
+            android:name=".rm550"
+            android:exported="false" />
+        <activity
+            android:name=".cx550"
+            android:exported="false" />
+        <activity
+            android:name=".cx450"
+            android:exported="false" />
+        <activity
+            android:name=".gt501"
+            android:exported="false" />
+        <activity
+            android:name=".mb520"
+            android:exported="false" />
+        <activity
+            android:name=".c4000x"
+            android:exported="false" />
+        <activity
+            android:name=".c4000d"
+            android:exported="false" />
+        <activity
+            android:name=".c275r"
+            android:exported="false" />
+        <activity
+            android:name=".c175r"
+            android:exported="false" />
+        <activity
+            android:name=".ml360"
+            android:exported="false" />
+        <activity
+            android:name=".h100i"
+            android:exported="false" />
+        <activity
+            android:name=".h212r"
+            android:exported="false" />
+        <activity
+            android:name=".h212"
+            android:exported="false" />
+        <activity
+            android:name=".w2"
+            android:exported="false" />
+        <activity
+            android:name=".w1"
+            android:exported="false" />
+        <activity
+            android:name=".t2"
+            android:exported="false" />
+        <activity
+            android:name=".t1"
+            android:exported="false" />
+        <activity
+            android:name=".s1t"
+            android:exported="false" />
+        <activity
+            android:name=".s500"
+            android:exported="false" />
+        <activity
+            android:name=".s250"
+            android:exported="false" />
+        <activity
+            android:name=".c1t"
+            android:exported="false" />
+        <activity
+            android:name=".c500"
+            android:exported="false" />
+        <activity
+            android:name=".c250"
+            android:exported="false" />
+        <activity
+            android:name=".c960"
+            android:exported="false" />
+        <activity
+            android:name=".c480"
+            android:exported="false" />
+        <activity
+            android:name=".c240"
+            android:exported="false" />
+        <activity
+            android:name=".k980"
+            android:exported="false" />
+        <activity
+            android:name=".k480"
+            android:exported="false" />
+        <activity
+            android:name=".k240"
+            android:exported="false" />
+        <activity
+            android:name=".cr3236"
+            android:exported="false" />
+        <activity
+            android:name=".cr3232"
+            android:exported="false" />
+        <activity
+            android:name=".cr1636"
+            android:exported="false" />
+        <activity
+            android:name=".cr1632"
+            android:exported="false" />
+        <activity
+            android:name=".c3236"
+            android:exported="false" />
+        <activity
+            android:name=".c3232"
+            android:exported="false" />
+        <activity
+            android:name=".c1636"
+            android:exported="false" />
+        <activity
+            android:name=".c1632"
+            android:exported="false" />
+        <activity
+            android:name=".rtx39"
+            android:exported="false" />
+        <activity
+            android:name=".rtx38"
+            android:exported="false" />
+        <activity
+            android:name=".rtx37"
+            android:exported="false" />
+        <activity
+            android:name=".rtx36t"
+            android:exported="false" />
+        <activity
+            android:name=".rtx36"
+            android:exported="false" />
+        <activity
+            android:name=".rtx35"
+            android:exported="false" />
+        <activity
+            android:name=".rtx26"
+            android:exported="false" />
+        <activity
+            android:name=".gtx16s"
+            android:exported="false" />
+        <activity
+            android:name=".z690"
+            android:exported="false" />
+        <activity
+            android:name=".z490"
+            android:exported="false" />
+        <activity
+            android:name=".x570"
+            android:exported="false" />
+        <activity
+            android:name=".b660"
+            android:exported="false" />
+        <activity
+            android:name=".b550"
+            android:exported="false" />
+        <activity
+            android:name=".b460f"
+            android:exported="false" />
+        <activity
+            android:name=".b450"
+            android:exported="false" />
+        <activity
+            android:name=".b460"
+            android:exported="false" />
+        <activity
+            android:name=".a520"
+            android:exported="false" />
+        <activity
+            android:name=".h610"
+            android:exported="false" />
+        <activity
+            android:name=".a320"
+            android:exported="false" />
+        <activity
+            android:name=".h510"
+            android:exported="false" />
+        <activity
+            android:name=".r758x"
+            android:exported="false" />
+        <activity
+            android:name=".i712"
+            android:exported="false" />
+        <activity
+            android:name=".i512k"
+            android:exported="false" />
+        <activity
+            android:name=".i312"
+            android:exported="false" />
+        <activity
+            android:name=".r56x"
+            android:exported="false" />
+        <activity
+            android:name=".i512"
+            android:exported="false" />
+        <activity
+            android:name=".r56g"
+            android:exported="false" />
+        <activity
+            android:name=".i511"
+            android:exported="false" />
+        <activity
+            android:name=".r536"
+            android:exported="false" />
+        <activity
+            android:name=".i510"
+            android:exported="false" />
+        <activity
+            android:name=".r333x"
+            android:exported="false" />
+        <activity
+            android:name=".i311"
+            android:exported="false" />
+        <activity
+            android:name=".r331"
+            android:exported="false" />
+        <activity
+            android:name=".i310"
+            android:exported="false" />
+        <activity
+            android:name=".athlon"
+            android:exported="false" />
+        <activity
+            android:name=".Carrito"
+            android:exported="false" />
+        <activity
+            android:name=".pentiumG6405"
+            android:exported="false" />
+        <activity
+            android:name=".teclado"
+            android:exported="false" />
+        <activity
+            android:name=".mouse"
+            android:exported="false" />
+        <activity
+            android:name=".monitor"
+            android:exported="false" />
+        <activity
+            android:name=".psu"
+            android:exported="false" />
+        <activity
+            android:name=".cases"
+            android:exported="false" />
+        <activity
+            android:name=".cooler"
+            android:exported="false" />
+        <activity
+            android:name=".hdd"
+            android:exported="false" />
+        <activity
+            android:name=".ssd"
+            android:exported="false" />
+        <activity
+            android:name=".ram"
+            android:exported="false" />
+        <activity
+            android:name=".gpu"
+            android:exported="false" />
+        <activity
+            android:name=".mb"
+            android:exported="false" />
+        <activity
+            android:name=".CPU"
+            android:exported="false" />
+        <activity
+            android:name=".Informacion"
+            android:exported="false" />
         <activity
             android:name=".menuPrincipal"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

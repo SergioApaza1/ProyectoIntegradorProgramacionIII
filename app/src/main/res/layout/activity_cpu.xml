@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".CPU" >
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationY="15dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="serif-monospace"
+                android:text="PROCESADORES"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:translationY="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/pentium" />
+
+                        <Button
+                            android:id="@+id/btnpentium"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="PENTIUM G6405"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:scaleX="2.5"
+                            android:scaleY="2"
+                            app:srcCompat="@drawable/athlon3000g" />
+
+                        <Button
+                            android:id="@+id/btnathlon"
+                            android:layout_width="150dp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="ATHLON 3000G"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i310" />
+
+                        <Button
+                            android:id="@+id/btni310"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i3 10100f"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:scaleX="2.3"
+                            android:scaleY="2"
+                            app:srcCompat="@drawable/r33100" />
+
+                        <Button
+                            android:id="@+id/btnr331"
+                            android:layout_width="150dp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 3 3100"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i311" />
+
+                        <Button
+                            android:id="@+id/btni311"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="INTEL i3 10105F"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView19"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:scaleX="2.3"
+                            android:scaleY="2"
+                            app:srcCompat="@drawable/r33x" />
+
+                        <Button
+                            android:id="@+id/btnr33x"
+                            android:layout_width="150sp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 3 3300X"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i510" />
+
+                        <Button
+                            android:id="@+id/btni510"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="INTEL i5 10400F"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:scaleX="2.3"
+                            android:scaleY="2"
+                            app:srcCompat="@drawable/r536" />
+
+                        <Button
+                            android:id="@+id/btnr536"
+                            android:layout_width="150sp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 5 3600"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i511" />
+
+                        <Button
+                            android:id="@+id/btni511"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i5 11400F"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/r556g" />
+
+                        <Button
+                            android:id="@+id/btnr56g"
+                            android:layout_width="150sp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 5 5600G"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i512" />
+
+                        <Button
+                            android:id="@+id/btni512"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i5 12400F"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/r556x" />
+
+                        <Button
+                            android:id="@+id/btnr56x"
+                            android:layout_width="150sp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 5 5600X"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i312" />
+
+                        <Button
+                            android:id="@+id/btni312"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i3 12100F"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/i512k" />
+
+                        <Button
+                            android:id="@+id/btni512k"
+                            android:layout_width="150sp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i5 12600K"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:translationY="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:translationX="35dp"
+                            app:srcCompat="@drawable/i712k" />
+
+                        <Button
+                            android:id="@+id/btni712k"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="CORE i7 12700k"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView28"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/r75x" />
+
+                        <Button
+                            android:id="@+id/btnr758x"
+                            android:layout_width="150dp"
+                            android:layout_height="50sp"
+                            android:background="@color/transparente"
+                            android:fontFamily="serif-monospace"
+                            android:text="RYZEN 7 5800X"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

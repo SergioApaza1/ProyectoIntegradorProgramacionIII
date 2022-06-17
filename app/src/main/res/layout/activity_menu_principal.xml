@@ -4,17 +4,313 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_700"
     tools:context=".menuPrincipal">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Menu Principal"
-        android:textSize="25sp"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="serif-monospace"
+                android:text="CATEGORÍAS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnProcesador"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="PROCESADOR"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/cpu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTarjetaMadre"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="TARJETA MADRE"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/tarjetamadre" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTarjetaVideo"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="TARJETA DE VIDEO"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/tarjetavideo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnRAM"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="MEMORIA RAM"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/ram" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSSD"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="SSD"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/ssd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnHDD"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="hdd"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/hdd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnRefrigeracion"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="REFRIGERACION"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/cooler" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCases"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="CASE"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/resource_case" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPSU"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="FUENTE DE PODER"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/psu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMonitor"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="MONITOR"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/monitor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMouse"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="MOUSE"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/mouse" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTeclado"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparente"
+                    android:fontFamily="serif-monospace"
+                    android:text="TECLADO"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/teclado" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
